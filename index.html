@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Take your podcast to the next level">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+    <script defer src="./js/script.js"></script>
+    <title>Castaway</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header">
+                <a href="#"><img class="logo" src="./img/Logo.png" alt="logo"></a>
+                <nav class="main-nav">
+                    <ul class="main-nav__list">
+                        <li><a href="#" class="main-nav__link">Home</a></li>
+                        <li><a href="#episodes" class="main-nav__link">Episodes</a></li>
+                        <li><a href="#about" class="main-nav__link">About</a></li>
+                        <li><a href="#contact" class="main-nav__link">Contact</a></li>
+                    </ul>
+                </nav> 
+                <button class="btn-mobile-nav">
+                    <ion-icon class="icon-mobile-nav" name="menu"></ion-icon>
+                    <ion-icon class="icon-mobile-nav" name="close"></ion-icon>
+                </button>
+            </div>         
+        </header>
+        
+        <main>
+            <section class="section-hero">
+                <div class="hero">
+                    <div class="hero-img">
+                        <img src="./img/Hero.png" alt="Jacob">
+                    </div>
+                    <div class="hero-content">
+                    <h1 class="heading">Take your podcast to the next <span>level</span></h1>
+                    <div class="links-block">
+                        <h1 class="music-heading">Listen on</h1>
+                        <div class="links-apps">
+                            <a href="#"><img class="app" src="./img/Music_apps/Spotify.png" alt="Spotify"></a>
+                            <a href="#"><img class="app" src="./img/Music_apps/Redone.png" alt="Redone"></a>
+                            <a href="#"><img class="app" src="./img/Music_apps/Pronew.png" alt="Pronew"></a>
+                            <a href="#"><img class="app" src="./img/Music_apps/Applemusic.png" alt="Apple music"></a>
+                            <a href="#"><img class="app" src="./img/Music_apps/youtube-music.webp" alt="Youtube music"></a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-episodes" id="episodes">
+                <div class="section-episode-head">
+                    <h1 class="section-episode-heading">Latest episodes</h1>
+                    <div class="btn-block" ><button class="episode-btn">View all episodes</button></div>
+                </div>
+                <div class="episodes">
+                    <article class="episode-article">
+                        <img class="episode-img" src="./img/Episodes/Image1.png" alt="image1">
+                        <div class="episode-content">
+                            <div class="topic">
+                                <p>Gear</p>
+                            </div>
+                            <p class="episode-number">Episode 3</p>
+                            <h1 class="episode-heading">Should you get outboard audio gear?</h1>
+                            <p class="episode-text">Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here’s our reasons on why you might want to consider picking something up.</p>
+                            <button class="episode-btn">View Episode Details</button>
+                        </div>
+                    </article>
+                    <article class="episode-article">
+                        <img class="episode-img" src="./img/Episodes/Image2.png" alt="image2">
+                        <div class="episode-content">
+                            <div class="topic">
+                                <p>Tips & Tricks</p> 
+                            </div>
+                            <p class="episode-number">Episode 2</p>
+                            <h1 class="episode-heading">Mic tricks to take you to the next level</h1>
+                            <p class="episode-text">Stop rolling with those default settings on your mic. These small tweaks will take you from sounding good to great.</p>
+                            <button class="episode-btn">View Episode Details</button>
+                        </div>
+                    </article>
+                    <article class="episode-article">
+                        <img class="episode-img" src="./img/Episodes/Image3.png" alt="image2">
+                        <div class="episode-content">
+                            <div class="topic">
+                                <p>Gear</p>
+                            </div>
+                            <p class="episode-number">Episode 1</p>
+                            <h1 class="episode-heading">The best microphone under $200</h1>
+                            <p class="episode-text">With so many microphones on the market, how are you supposed to know what’s the best? Take a look at our top picks.</p>
+                            <button class="episode-btn">View Episode Details</button>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section>
+                <div class="section-about" id="about">
+                    <div class="about">
+                        <div class="about-content">
+                            <button class="about-btn"><img src="./img/arrow.png" width="38px" alt="arrow">
+                              </button>
+                            <p class="about-content__subheading">Meet your host</p>
+                            <h1 class="about-content__heading">Jacob Paulaner</h1>
+                            <p class="about-content__text">Jacob has a background in audio engineering, and has been podcasting since the early days.</p>
+                            <p class="about-content__text">He’s here to help you level up your game by sharing everything he’s learned along the way.</p>
+                        </div>
+                        <div class="about-img">
+                            <img src="./img/Jacob.png" alt="Jacob">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-subscribe">
+                <div class="subscribe">
+                    <div class="subscribe-text">
+                        <p class="subscribe-text__subheading">Email Newsletter</p>
+                        <h1 class="subscribe-text__heading">Subscribe for updates</h1>
+                    </div>
+                    <form class="subscribe-form" action="#">
+                        <input class="subscribe-form__name input" type="text" placeholder="Name" required>
+                        <input class="subscribe-form__email input" type="email" placeholder="Email" required>
+                        <button class="subscribe-form__btn">Subscribe</button>
+                    </form>
+                </div>
+            </section>
+            <section class="section-feedback">
+                <div class="feedback">
+                    <div class="feedback-content">
+                        <div class="stars">
+                            <img src="./img/star.png" alt="star">
+                            <img src="./img/star.png" alt="star">
+                        </div>
+                        <p class="feedback-message">I can’t recommend this podcast enough</p>
+                        <p class="feedback-autor">Betty Lacey</p>
+                    </div>
+                    <div class="feedback-content">
+                        <div class="stars">
+                            <img src="./img/star.png" alt="star">
+                            <img src="./img/star.png" alt="star">
+                            <img src="./img/star.png" alt="star">
+                            <img src="./img/star.png" alt="star">
+                            <img src="./img/star.png" alt="star">
+                        </div>
+                        <p class="feedback-message">Jacob is the best in the business</p>
+                        <p class="feedback-autor">Adam Driver</p>
+                    </div>
+                    <div class="feedback-content">
+                        <div class="stars">
+                            <img src="./img/star.png" alt="star">
+                            <img src="./img/star.png" alt="star">
+                            <img src="./img/star.png" alt="star">
+                        </div>
+                        <p class="feedback-message">A wealth of audio knowledge</p>
+                        <p class="feedback-autor">Marcus Brown</p>
+                    </div>
+                    <div class="feedback-content">
+                        <div class="stars">
+                            <img src="./img/star.png" alt="star">
+                            <img src="./img/star.png" alt="star">
+                            <img src="./img/star.png" alt="star">
+                            <img src="./img/star.png" alt="star">
+                            <img src="./img/star.png" alt="star">
+                        </div>
+                        <p class="feedback-message">Every episode is a gem!</p>
+                        <p class="feedback-autor">Jessica Knowl</p>
+                    </div>
+                    <div class="feedback-content">
+                        <div class="stars">
+                            <img src="./img/star.png" alt="star">
+                            <img src="./img/star.png" alt="star">
+                            <img src="./img/star.png" alt="star">
+                            <img src="./img/star.png" alt="star">
+                            <img src="./img/star.png" alt="star">
+                        </div>
+                        <p class="feedback-message">Whoa whoa, let me take some notes!</p>
+                        <p class="feedback-autor">Scott Adams</p>
+                    </div>
+                    <div class="feedback-content">
+                        <div class="stars">
+                            <img src="./img/star.png" alt="star">
+                            <img src="./img/star.png" alt="star">
+                            <img src="./img/star.png" alt="star">
+                            <img src="./img/star.png" alt="star">
+                        </div>
+                        <p class="feedback-message">I’ve upped my game considerably since I started listening</p>
+                        <p class="feedback-autor">Steven Blast</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer" id="contact">
+            <div class="footer-logo">
+                <a href="#"><img class="logo" src="./img/Logo.png" alt="logo"></a>
+                <ul class="social">
+                    <li class="social-img"><a href="#"><img src="./img/socials/instagram.png" alt="instagram"></a></li>
+                    <li class="social-img"><a href="#"><img src="./img/socials/twitter.png" alt="twitter"></a></li>
+                    <li class="social-img"><a href="#"><img src="./img/socials/facebook.png" alt="facebook"></a></li>
+                </ul>
+            </div>
+            <ul class="footer-nav">
+                <li><a href="#" class="nav-item">Home</a></li>
+                <li><a href="#episodes" class="nav-item">Episodes</a></li>
+                <li><a href="#about" class="nav-item">About</a></li>
+                <li><a href="#contact" class="nav-item">Contact</a></li>
+            </ul>
+            <ul class="footer-nav footer-nav-last-child">
+                <li><a href="#" class="nav-item">Style Guide</a></li>
+                <li><a href="#" class="nav-item">Instructions</a></li>
+                <li><a href="#" class="nav-item">Changelog</a></li>
+                <li><a href="#" class="nav-item">Credit</a></li>
+                <li><a href="#" class="nav-item">Powered by Webflow</a></li>
+                <li><a href="#" class="nav-item">Licenses</a></li>
+            </ul>
+            <div class="links-apps">
+                <a href="#"><img class="app" src="./img/Music_apps/Spotify.png" alt="Spotify"></a>
+                <a href="#"><img class="app" src="./img/Music_apps/Redone.png" alt="Redone"></a>
+                <a href="#"><img class="app" src="./img/Music_apps/Pronew.png" alt="Pronew"></a>
+                <a href="#"><img class="app" src="./img/Music_apps/Applemusic.png" alt="Apple music"></a>
+                <a href="#"><img class="app" src="./img/Music_apps/youtube-music.webp" alt="Youtube music"></a>
+            </div>
+        </footer>
+    </div>    
+</body>
+</html>

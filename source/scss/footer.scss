@@ -1,0 +1,96 @@
+.footer {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 20rem;
+    max-width: 130rem;
+
+    @media (max-width: 64em) {
+        display: grid;
+        grid-template-columns: repeat(1, 4fr);
+        text-align: center;
+        padding-top: 15rem;
+    }
+
+    .footer-logo {
+        margin-right: 24rem;
+
+        @media (max-width: 84em) {
+            margin-right: 10rem;
+        }
+
+        @media (max-width: 64em) {
+            margin: 0 auto;
+        }
+
+        .logo {
+            width: 22rem;
+            margin-bottom: 2.5rem;
+        }
+
+        @media (max-width: 64em) {
+            max-width: 0 auto;
+        }
+
+        .social {
+            display: flex;
+            gap: 2rem;
+
+            @media (max-width: 64em) {
+                margin: 4rem auto;
+                justify-content: center;
+            }
+
+            .social-img {
+                width: 3rem;
+            } 
+        }    
+    }
+
+    .footer-nav {
+        margin-right: 12rem;
+
+        @media (max-width: 64em) {
+            margin: 0 auto;
+            display: flex;
+            gap: 1rem;
+        }
+        
+        li {
+            padding-bottom: 1rem;
+        }
+
+        .nav-item {
+            font-size: 1.7rem;
+            line-height: 159%;
+            margin-bottom: 1rem;
+
+            @media (max-width: 64em) {
+                font-size: 1.4rem;
+            }
+        }
+    }
+
+    .footer-nav-last-child {
+        @media (max-width: 46em) {
+            display: block;
+            margin-top: 3rem;
+        }    
+    }
+
+    .links-apps {
+       text-align: center;
+
+        @media (max-width: 64em) {
+            margin-top: 3rem;
+        }
+
+        .app {
+            width: 3.2rem;
+            height: 3.2rem;
+            cursor: pointer;
+            margin-right: 2rem;
+            margin-bottom: 2rem;
+        }
+    }
+}

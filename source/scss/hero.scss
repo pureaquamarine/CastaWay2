@@ -1,0 +1,93 @@
+.section-hero {
+
+    .hero {
+        max-width: 130rem;
+        display: flex;
+        margin: 0 auto; 
+        padding-top: 8rem;
+        gap: 6rem;
+
+        @media (max-width: 84rem) {
+            max-width: 120rem;
+        }
+        @media (max-width: 70em) {
+            align-items: center;
+        }
+
+        @media (max-width: 64em) {
+            max-width: 75%;
+            flex-direction: column-reverse;
+        }
+
+        .hero-img {
+            max-width: 65rem;
+
+            @media (max-width: 84em) {
+                max-width: 55rem;
+            }
+
+            @media (max-width: 74em) {
+                max-width: 48rem;
+            }
+        }
+
+        .hero-content {
+            margin-top: 30rem;
+
+            @media (max-width: 70em) {
+                margin-top: 3rem;
+                text-align: center;
+            }
+
+            @media (max-width: 64em) {
+                
+            }
+
+            .heading {
+                font-size: 7rem;
+                letter-spacing: 0.32rem;
+                line-height: 126%;
+                margin-bottom: 9rem;
+
+                @media (max-width: 84em) {
+                    font-size: 6rem;
+                }
+
+                @media (max-width: 64em) {
+                    font-size: 5rem;
+                    margin-bottom: 4rem;
+                }
+
+                span {
+                    font-weight: 700;
+                }
+            }
+
+            .links-block {
+                @media (max-width: 70em) {
+                    text-align: center;
+                }
+                .music-heading {
+                    font-size: 1.5rem;
+                    line-height: 160%;
+                    margin-bottom: 1.6rem;
+                }
+
+                .links-apps {
+                    display: flex;
+                    gap: 2rem;
+
+                    @media (max-width: 70em) {
+                        justify-content: center;
+                    }
+
+                    .app {
+                        width: 2rem;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}  
+

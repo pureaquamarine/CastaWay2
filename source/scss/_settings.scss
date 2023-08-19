@@ -1,0 +1,58 @@
+html {
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    font-size: 62.5%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+*, 
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+} 
+*:focus {
+    outline: none;
+}
+body {
+    overflow-x: hidden;
+    min-height: 125rem;
+    margin: 0 auto;
+    line-height: 1;
+    font-weight: 400;
+    background-color: #191919;
+    color: #fff;
+    padding: 4rem 1.5rem;
+}
+.wrapper {
+    position: relative;
+    overflow-x: hidden;
+}
+h1,h2,h3,h4,ul,li,p {
+    margin: 0;
+    padding: 0; 
+    font-family: inherit;  
+    font-weight: inherit;
+}
+img {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    border: none;
+}
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+ 
+
+
